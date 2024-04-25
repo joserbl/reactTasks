@@ -10,7 +10,7 @@ function ListaTareas() {
   const addTask = task => {
 
     console.log(task);
-    //checking the new task is not empty 
+    //checking the new task is not empty ha
     if (task.text.trim()) {
       task.text = task.text.trim();
       //creating a new array with all the elements from tasks, and putting the new task at the first position 
